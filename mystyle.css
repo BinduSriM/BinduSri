@@ -1,0 +1,120 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url('assets/background.jpeg');
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.heading{
+	color:white;
+	text-align: center;
+	margin-top:100px;
+}
+.para{
+	color:white;
+	text-align: center;
+}
+.container{
+	margin-top: 50px;
+	background-color: white;
+	padding:50px;
+}
+.main{
+	padding:20px;
+	margin-top: 50px;
+}
+img {
+  float:left;
+  width: 230px;
+  height: auto;
+  margin-right: 50px;
+}
+.img1{
+  float:left;
+  width: 100%;
+  height: 200px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.col{
+	margin-right: 20px;
+}
+footer{
+	padding:50px;
+	text-align: center;
+}
+.fa1 {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.9;
+    color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-envelope {
+	background: red;
+	color: white;
+}
+li{
+	padding:10px;
+	/*background-color: white;*/
+}
+ul li a:hover{
+	color:#0000ff;
+}
+.ul{
+	padding-right:50px;
+	/*background-color: #444444;*/
+  background-color: black;
+  /*border-bottom-width: 1px;
+  border-bottom-color:blue; */
+  border-bottom:5px solid blue;
+}
+.span{
+	color:white;
+	font-size: 20px;
+}
+span a:hover{
+	color:white;
+	font-size: 24px;
+}
+.but{
+  color:white;
+}
+h5 a{
+  background-color: #777777;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h5 a:hover{
+  color: white;
+}
