@@ -13,8 +13,8 @@
 
 <body style="background-color: #706e67">
 	<nav class="navbar ul navbar-expand-sm fixed-top">
-		<span><a class="span" href="#footer">A Girl Full Of Dreams </a> </span>&nbsp;
-		<span><img src="assets/butterfly.png" style="width:23px;height:23px;"> </span>
+		<span><a class="span" href="#">A Girl Full Of Dreams </a> </span>
+		<!-- <span><img src="assets/butterfly.png" style="width:23px;height:23px;position: relative;"> </span> -->
 		<button class="navbar-toggler navbar-light bg-warning" type="button" data-toggle="collapse"
 	                        data-target="#collapse_Navbar"> 
 	        <span class="navbar-toggler-icon"></span> 
@@ -30,8 +30,17 @@
 			  <li class="nav-item">
 			    <a class="nav-link but" href="#work"><span class="fa fa-at fa-lg"></span> Work</a>
 			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link but" href="#skills"><span class="fa fa-graduation-cap fa-lg"></span> Skills</a>
+			  </li>
 			  <li class="nav-items">
 			    <a class="nav-link but" href="#education"><span class="fa fa-book fa-lg"></span> Education</a>
+			  </li>
+			  <li class="nav-items">
+			    <a class="nav-link but" href="#connect"><span class="fa fa-edit fa-lg"></span> Message</a>
+			  </li>
+			  <li class="nav-items">
+			    <a class="nav-link but" href="#footer"><span class="fa fa-comments fa-lg"></span> Connect</a>
 			  </li>
 			</ul>
 		</div>
@@ -41,7 +50,7 @@
 		<h1 class="heading">Manchikalapudi Bindu Sri</h1>
 		<p class="para">Web developer</p>
 		<h5 class="para">Download my Resume: <a href="assets/Resume.pdf" target="_blank" download>My Resume</a></h5>
-		<div class="container" id="about">
+		<div class="container" id="about" style="background-color: #FFE4E1;">
 		  <h2 style="margin-left:20px;">About ME</h2>
 		  <div class="card border-0">
 		    <div class="card-body">
@@ -50,9 +59,9 @@
 			    		<p><img src="assets/me.jpg" class="rounded-circle" alt="my pic"/></p>
 			    	</div>
 			    	<div class="col-md-9">
-				    	<p>Hello...!!! I'm Bindu. I'm currently studying B-Tech 4th year at VIT-AP University. I belong to the CSE branch. I am a full-stack developer. I love to make web applications. I want to be a software engineer and productively use my skills. My passion in life is to learn everything that excites me.</p>
+				    	<p>Hello...!!! I'm Bindu. I'm currently studying B-Tech 4th year in computer science engineering at VIT-AP University. I am a full-stack developer and love to make web applications. I want to be a software engineer and productively use my skills. My passion in life is to learn everything that excites me.</p>
 
-				    	<p>Well, I'm very passionate and enthusiastic about gaining knowledge. I am self-motivated and I don't give up even if I fail multiple times. I consider myself hardworking with never-giving up attitude. And rejection can't dull my sparkle :)</p>
+				    	<p>Well, I'm very enthusiastic about gaining knowledge. A part from technical stuff, I love writing. I am self-motivated and don't give up on anything even if I fail multiple times. I consider myself hardworking with optimistic attitude. And rejection can't dull my sparkle :)</p>
 
 				    	<p><span class="fa fa-envelope-open fa-lg"></span> &nbsp; bindusrimanchikalapudi@gmail.com</p>
 
@@ -62,23 +71,40 @@
 		    </div> 
 		  </div>
 		</div>
-		<div id="projects" class="container">
+		<div id="projects" class="container" style="background-image: url('assets/projects.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
 		  <h2 style="margin-left:20px;">Projects</h2>
-		  <div class="card border-0">
+		  <div class="card border-0" style="background-image: url('assets/projects.jpg'); background-repeat: no-repeat; background-size: 100% 100%;">
 		    <div class="card-body">
 		    	<div class="row">
-			    	<div class="col-md-4">
-			    		<p><img src="assets/bank.jpg" class="img1" alt="Bank Project"/></p>
+			    	<div class="col-md-4 proj">
+			    		<p><a href="https://github.com/BinduSriM/BankManagementSystem" target="_blank"><img src="assets/bank.jpg" class="img1" alt="Bank Project"/></a></p>
 			    		<h5>Bank Management System</h5>
 			    		<p>January 2019</p>
 			    	</div>
-		    		<div class="col-md-4">
-			    		<p><img src="assets/blind.jpg" class="img1" alt="Blind Project"/></p>
+		    		<div class="col-md-4 proj">
+			    		<p><a href="https://github.com/BinduSriM/HelperForBlind" target="_blank"><img src="assets/blind.jpg" class="img1" alt="Blind Project"/></a></p>
 			    		<h5>Helper for Blind</h5>
 			    		<p>January 2018</p>
 			    	</div>
-			    	<div class="col-md-4">
-			    		<p><img src="assets/mag.jpg" class="img1" alt="Site"/></p>
+			    	<div class="col-md-4 proj">
+			    		<p><a href="https://github.com/BinduSriM/Book-a-table---nodejs" target="_blank"><img src="assets/table.jpeg" class="img1" alt="Reserve"/></a></p>
+			    		<h5>Alexa - Book a Table Skill</h5>
+			    		<span>May 2018</span>
+			    	</div>
+		    	</div>
+		    	<div class="row" style="margin-top: 20px;">
+			    	<div class="col-md-4 proj">
+			    		<p><a href="https://github.com/BinduSriM/EventsWebApplication" target="_blank"><img src="assets/events.jpeg" class="img1" alt="Events Project"/></a></p>
+			    		<h5>Events Web Application</h5>
+			    		<p>July 2020</p>
+			    	</div>
+		    		<div class="col-md-4 proj">
+			    		<p><a href="https://github.com/BinduSriM/FaceRecognition" target="_blank"><img src="assets/face.jpg" class="img1" alt="Blind Project"/></a></p>
+			    		<h5>Face Recognition</h5>
+			    		<p>October 2018</p>
+			    	</div>
+			    	<div class="col-md-4 proj">
+			    		<p><a href="https://mydelhi.live" target="_blank"><img src="assets/mag.jpg" class="img1" alt=""/></a></p>
 			    		<h5>Wordpress site for magazine</h5>
 			    		<span>Nov 2019-Jan 2020</span>
 			    	</div>
@@ -87,7 +113,7 @@
 		  </div>
 		</div>
 
-		<div  id="work" class="container-fluid">
+		<div class="container-fluid" id="work">
 		<div class="row">
 			<div class="col-sm-12">
 				<div id="inam" class="carousel slide" data-ride="carousel">
@@ -176,14 +202,38 @@
 					</a>
 					<a href="#inam" class="carousel-control-next" data-slide="next">
 						<span class="carousel-control-next-icon" style="background-color: black;"></span>
-					</a>
-					
+					</a>	
 				</div>
-				
 			</div>
-			
 		</div>
-		
+	</div>
+
+	<div class="cont" id="skills">
+    <!-- Control the column width, and how they should appear on different devices -->
+    <div class="row justify-content-center">
+      <div class="card col-sm-4" style="background-color:#ffff4d;">
+      	<h4 style="margin-bottom:20px;">Techinal Skills</h4>
+      	<h5>
+      		<span class="badge badge-pill badge-primary">Java</span>
+      		<span class="badge badge-pill badge-primary">Python</span>
+      		<span class="badge badge-pill badge-primary">C</span>
+      		<span class="badge badge-pill badge-primary">C++</span>
+      		<span class="badge badge-pill badge-primary">MySql</span>
+      		<span class="badge badge-pill badge-primary">Wordpress</span>
+      		<span class="badge badge-pill badge-primary">Bootstrap</span>
+      		<span class="badge badge-pill badge-primary">Full stack development</span>
+      	</h5>
+      </div>
+      <div class="card col-sm-4 cl" style="background-color:#FFB6C1;">
+      	<h4 style="margin-bottom:20px;">Interests</h4>
+      	<h5>
+      		<span class="badge badge-pill badge-primary">Reading Books</span>
+      		<span class="badge badge-pill badge-primary">Writing Quotes</span>
+      		<span class="badge badge-pill badge-primary">Playing carroms</span>
+      		<span class="badge badge-pill badge-primary">Watching movies</span>
+      	</h5>
+      </div>
+	</div>
 	</div>
 
 		<div id="education" class="container">
@@ -194,26 +244,69 @@
 			    	<div class="col-md-4">
 			    		<small>2017-2021</small>
 			    		<h5>Bachelor of Technology</h5><p></p>
-			    		<span>VIT University</span>
+			    		<span>VIT University (8.99 CGPA)</span>
 			    	</div>
 			    	<div class="col-md-4">
 			    		<small>2015-2017</small>
 			    		<h5>Intermediate</h5><p></p>
-			    		<span>Narayana Junior College</span>
+			    		<span>Narayana Junior College (97%)</span>
 			    	</div>
 			    	<div class="col-md-4">
 			    		<small>2014-2015</small>
 			    		<h5>Secondary School</h5><p></p>
-			    		<span>Narayana High School</span>
+			    		<span>Narayana High School (9.7 GPA)</span>
 			    	</div>
 		    	</div>
 		    </div> 
 		  </div>
 		</div>
-		<footer id="footer">
-			<a href="https://www.facebook.com/bindu.manchikalapudi/" class="fa fa1 fa-facebook"></a>
-			<a href="https://www.linkedin.com/in/manchikalapudi-bindu-sri-38610516a/" class="fa fa1 fa-linkedin"></a>
-			<a href="https://www.instagram.com/bindu_manchikalapudi/" class="fa fa1 fa-instagram"></a>
-		</footer>
+
+	<div class="row justify-content-center" id="connect" style="margin-top:50px;">
+		<div class="col-md-12 col-lg-6 col-xl-5 mb-4">
+			<section class="form-dark">
+				<div class="card card-image" style="background-image: url('assets/contact.jpeg'); background-repeat: no-repeat; background-size: 100% 100%;">
+					<div class="rgba-stylish-strong py-5 px-5 z-depth-2">
+						<form action="https://formspree.io/mjvpvrye" method="post">
+						<div class="text-center">
+							<h3 class="mb-5 mt-4 font-weight-bold">
+								<strong>CONTACT</strong>
+							</h3>
+
+						</div>
+						<div class="md-form">
+							<label for="form1">Enter Your Full Name</label>
+							<input type="text" id="form1" name="Name" class="form-control white-text">
+						</div>
+						<div class="md-form">
+							<label for="form2">Email</label>
+							<input type="email" id="form2" name="Email" class="form-control white-text">
+						</div>
+						<div class="md-form">
+							<label for="form3">Subject</label>
+							<input type="text" id="form3" name="Subject" class="form-control white-text">
+						</div>
+						<div class="md-form">
+							<label for="form4">Message</label>
+							<textarea id="form4" name="Message" placeholder="Leave a message..." class="form-control white-text" rows="5"></textarea>
+						</div>
+						<div class="md-form">
+							<br><button type="submit" class="btn btn-default btn-primary">Submit</button>
+						</div>
+					</form>
+					</div>
+				</div>
+			</section>
+		</div>
 	</div>
+</div>
+</div>
+	<footer>
+		<div id="footer">
+			<p><a href="https://www.facebook.com/bindu.manchikalapudi/" class="fa fa1 fa-facebook"></a>
+			<a href="https://www.linkedin.com/in/manchikalapudi-bindu-sri-38610516a/" class="fa fa1 fa-linkedin"></a>
+			<a href="https://www.instagram.com/bindu_manchikalapudi/" class="fa fa1 fa-instagram"></a></p>
+			<span>Copyright &copy;: Manchikalapudi Bindu Sri</span>
+		</div>
+	</footer>
 </body>
+</html>
